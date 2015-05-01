@@ -1,0 +1,14 @@
+buildinfo.properties
+buildinfo.h
+release.properties
+git-head.h
+.DS_Store
+xcuserdata/
+*.xcuserstate
+build/
+OpenTok-OSX.framework
+OpenTok-OSX.framework.tar.bz2
+OpenTok.framework
+OpenTok.framework.tar.bz2
+test-reports/
+objc-ci-ios/objc-ci-ios.xcodeproj/project.xcworkspace/xcshareddata
