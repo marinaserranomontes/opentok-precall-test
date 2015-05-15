@@ -1,0 +1,14 @@
+#message {
+    background-color: #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 500px;
+    margin-left: calc(50% - 280px);
+}
+
+#publisher {
+    width: 320px;
+    height: 240px;
+    margin-left: calc(50% - 160px);
+}
