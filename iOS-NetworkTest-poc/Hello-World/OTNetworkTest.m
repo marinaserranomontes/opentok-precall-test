@@ -72,10 +72,10 @@ OTSubscriberKitNetworkStatsDelegate >
     } else
     {
         if ([self.networkTestDelegate
-             respondsToSelector:@selector(didNetworkTestCompleteWithConnectResult:
+             respondsToSelector:@selector(networkTestDidCompleteWithConnectResult:
                                           publisherResult:subscriberResult:error:)])
         {
-            [self.networkTestDelegate didNetworkTestCompleteWithConnectResult:canConnect
+            [self.networkTestDelegate networkTestDidCompleteWithConnectResult:canConnect
                                                                publisherResult:canPublish
                                                               subscriberResult:canSubsribe
                                                                          error:error];

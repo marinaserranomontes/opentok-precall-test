@@ -36,7 +36,7 @@ static NSString* const kToken = @"";
  * canSubscribe - This will be false when subscriber fail to subscribe the stream
  *                as well as when bw < 150K
  */
-- (void)didNetworkTestCompleteWithConnectResult:(BOOL)canConnect
+- (void)networkTestDidCompleteWithConnectResult:(BOOL)canConnect
                                 publisherResult:(BOOL)canPublish
                                subscriberResult:(BOOL)canSubscribe
                                           error:(OTError*)error;

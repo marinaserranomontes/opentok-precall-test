@@ -27,7 +27,7 @@
 
 @optional
 
-- (void)didNetworkTestCompleteWithConnectResult:(BOOL)canConnect
+- (void)networkTestDidCompleteWithConnectResult:(BOOL)canConnect
                                  publisherResult:(BOOL)canPublish
                                 subscriberResult:(BOOL)canSubscribe
                                            error:(OTError*)error;
